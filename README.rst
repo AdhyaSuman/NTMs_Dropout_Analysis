@@ -1,4 +1,3 @@
-This repository is associated with the paper "Do Neural Topic Models Really Need Dropout? Analysis of the Effect of Dropout in Topic Modeling", accepted at EACL 2023.
 ========
 VAE-NTMs
 ========

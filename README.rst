@@ -41,6 +41,25 @@ All experiments are conducted using OCTIS_ which is an integrated framework for 
 
 .. _OCTIS: https://github.com/MIND-Lab/OCTIS
 
-Citation
---------
-Will be available soon..!!
+How to cite this work?
+---------------------
+This work has been accepted at EACL 2023! Read the paper in `arXiv`_
+
+If you decide to use this resource, please cite:
+
+.. _`ACL Anthology`: https://aclanthology.org/2022.icon-main.18/
+
+.. _`arXiv`: https://arxiv.org/abs/2303.14951
+
+
+::
+
+    @misc{adhya2023neural,
+      title={Do Neural Topic Models Really Need Dropout? Analysis of the Effect of Dropout in Topic Modeling}, 
+      author={Suman Adhya and Avishek Lahiri and Debarshi Kumar Sanyal},
+      year={2023},
+      eprint={2303.15973},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+      }
+  

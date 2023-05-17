@@ -8,9 +8,14 @@ Models
 In this paper, we have analyzed the effect of dropout in VAE-based neural topic models. We have chosen three widely used neural topic models,
 which are as follows:
 
+.. raw:: html
+
+ <img src="https://github.com/AdhyaSuman/NTMs_Dropout_Analysis/blob/master/misc/Dropout.png" align="right" width="300px" alt="right-aligned logo in README">
+
 * **CTM**: Bianchi, F., Terragni, S., and Hovy, D. (2021). `Pre-training is a Hot Topic: Contextualized Document Embeddings Improve Topic Coherence`. ACL. https://aclanthology.org/2021.acl-short.96/
 * **ProdLDA**: Akash Srivastava and Charles Sutton. (2017). `Autoencoding variational inference for topic models`. ICLR. https://openreview.net/forum?id=BybtVK9lg
 * **ETM**: Adji B. Dieng, Francisco J. R. Ruiz, and David M. Blei. (2020). Topic modeling in embedding spaces. TACL. https://doi.org/10.1162/tacl_a_00325
+   
 
 Datasets
 --------

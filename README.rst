@@ -43,23 +43,35 @@ All experiments are conducted using OCTIS_ which is an integrated framework for 
 
 How to cite this work?
 ---------------------
-This work has been accepted at EACL 2023! Read the paper in `arXiv`_
+This work has been accepted at EACL 2023!
+
+Read the paper:
+
+1. `ACL Anthology`_
+
+2. `ArXiv`_
 
 If you decide to use this resource, please cite:
 
-.. _`ACL Anthology`: https://aclanthology.org/2022.icon-main.18/
+.. _`ACL Anthology`: https://aclanthology.org/2023.eacl-main.162/
 
-.. _`arXiv`: https://arxiv.org/abs/2303.14951
+.. _`arXiv`: https://arxiv.org/abs/2303.15350
 
 
 ::
 
-    @misc{adhya2023neural,
-      title={Do Neural Topic Models Really Need Dropout? Analysis of the Effect of Dropout in Topic Modeling}, 
-      author={Suman Adhya and Avishek Lahiri and Debarshi Kumar Sanyal},
-      year={2023},
-      eprint={2303.15973},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-      }
+    @inproceedings{adhya-etal-2023-neural,
+    title = "Do Neural Topic Models Really Need Dropout? Analysis of the Effect of Dropout in Topic Modeling",
+    author = "Adhya, Suman  and
+      Lahiri, Avishek  and
+      Sanyal, Debarshi Kumar",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-main.162",
+    pages = "2220--2229",
+    abstract = "Dropout is a widely used regularization trick to resolve the overfitting issue in large feedforward neural networks trained on a small dataset, which performs poorly on the held-out test subset. Although the effectiveness of this regularization trick has been extensively studied for convolutional neural networks, there is a lack of analysis of it for unsupervised models and in particular, VAE-based neural topic models. In this paper, we have analyzed the consequences of dropout in the encoder as well as in the decoder of the VAE architecture in three widely used neural topic models, namely, contextualized topic model (CTM), ProdLDA, and embedded topic model (ETM) using four publicly available datasets. We characterize the dropout effect on these models in terms of the quality and predictive performance of the generated topics."
+    }
   

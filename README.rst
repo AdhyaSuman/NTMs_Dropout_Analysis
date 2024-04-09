@@ -47,7 +47,7 @@ All experiments are conducted using OCTIS_ which is an integrated framework for 
 .. _OCTIS: https://github.com/MIND-Lab/OCTIS
 
 How to cite this work?
----------------------
+----------------------
 This work has been accepted at EACL 2023!
 
 Read the paper:
